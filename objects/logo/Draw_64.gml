@@ -11,3 +11,4 @@ if(_hint){
 	draw_text_ext_transformed(320,360,"[PRESS Z OR ENTER]",9,-1,2,2,0);
 	draw_set_halign(fa_left);
 }
+draw_set_halign(fa_left);
