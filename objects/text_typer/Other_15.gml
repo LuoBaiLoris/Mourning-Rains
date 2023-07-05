@@ -33,7 +33,7 @@ _group_font_space_x[1,0]=real(Lang_GetString("font.menu.0.space.x"));
 _group_font[1,1]=font_simsun
 _group_font_scale_x[1,1]=1
 _group_font_scale_y[1,1]=1
-_group_font_space_x[1,1]=0
+_group_font_space_x[1,1]=1
 _group_font_space_y[1]=1
 
 _group_font[2,0]=Lang_GetFont(Lang_GetString("font.battle.0"));
