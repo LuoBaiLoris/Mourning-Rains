@@ -57,13 +57,13 @@ _group_font_space_x[3,1]=1;
 _group_font_space_y[3]=1
 
 
-_group_font[4,0]=font_chsans
-_group_font_scale_x[4,0]=0.5
-_group_font_scale_y[4,0]=0.5
+_group_font[4,0]=font_ch_sans
+_group_font_scale_x[4,0]=1
+_group_font_scale_y[4,0]=1
 _group_font_space_x[4,0]=1
-_group_font[4,1]=font_chsans
-_group_font_scale_x[4,1]=0.5
-_group_font_scale_y[4,1]=0.5
+_group_font[4,1]=font_ch_sans
+_group_font_scale_x[4,1]=1
+_group_font_scale_y[4,1]=1
 _group_font_space_x[4,1]=1;
 _group_font_space_y[4]=1
 

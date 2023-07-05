@@ -153,7 +153,7 @@
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.2.1.75",
+    "IDEVersion": "2023.6.0.89",
   },
   "resources": [
     {"id":{"name":"spr_default","path":"sprites/spr_default/spr_default.yy",},},
@@ -462,7 +462,6 @@
     {"id":{"name":"Console_Custom","path":"scripts/Console_Custom/Console_Custom.yy",},},
     {"id":{"name":"Console_DefineMacro","path":"scripts/Console_DefineMacro/Console_DefineMacro.yy",},},
     {"id":{"name":"Console_ExecuteCmd","path":"scripts/Console_ExecuteCmd/Console_ExecuteCmd.yy",},},
-    {"id":{"name":"font_chsans","path":"fonts/font_chsans/font_chsans.yy",},},
     {"id":{"name":"Console_GetInput","path":"scripts/Console_GetInput/Console_GetInput.yy",},},
     {"id":{"name":"Console_GetInputNumber","path":"scripts/Console_GetInputNumber/Console_GetInputNumber.yy",},},
     {"id":{"name":"Console_GetMacro","path":"scripts/Console_GetMacro/Console_GetMacro.yy",},},
@@ -524,7 +523,7 @@
     {"id":{"name":"Player_SetHp","path":"scripts/Player_SetHp/Player_SetHp.yy",},},
     {"id":{"name":"Player_GetHp","path":"scripts/Player_GetHp/Player_GetHp.yy",},},
     {"id":{"name":"Player_SetHpMax","path":"scripts/Player_SetHpMax/Player_SetHpMax.yy",},},
-    {"id":{"name":"Font5","path":"fonts/Font5/Font5.yy",},},
+    {"id":{"name":"font_ch_sans","path":"fonts/font_ch_sans/font_ch_sans.yy",},},
     {"id":{"name":"Battle_SetMenuFightPanel","path":"scripts/Battle_SetMenuFightPanel/Battle_SetMenuFightPanel.yy",},},
     {"id":{"name":"Player_GetHpMax","path":"scripts/Player_GetHpMax/Player_GetHpMax.yy",},},
     {"id":{"name":"Player_GetExp","path":"scripts/Player_GetExp/Player_GetExp.yy",},},
