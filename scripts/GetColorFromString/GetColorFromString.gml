@@ -25,6 +25,31 @@ function GetColorFromString() {
 		case "gray_light":
 			color=c_ltgray;
 			break;
+		case "lime":
+			color=c_lime;
+			break;
+		case "purple":
+			color=c_purple;
+			break;
+		case "orange":
+			color=c_orange;
+			break;
+		case "blue":
+			color=c_blue;
+			break;
+		case "aqua":
+			color=c_aqua;
+			break;
+		case "grey":
+			color=c_grey;
+			break;
+		case "green":
+			color=c_green;
+			break;
+		case "fuchsia":
+		case "pink":
+			color=c_fuchsia;
+			break;
 	}
 	return color;
 

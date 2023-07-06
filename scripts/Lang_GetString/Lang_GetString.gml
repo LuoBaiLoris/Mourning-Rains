@@ -2,7 +2,7 @@
 ///@arg default*
 function Lang_GetString() {
 	var KEY=argument[0];
-	var DEF="";
+	var DEF=KEY;
 	if(argument_count>=2){
 		DEF=argument[1];
 	}

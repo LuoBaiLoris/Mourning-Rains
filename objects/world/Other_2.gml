@@ -1,3 +1,8 @@
+global.language=LANGUAGE.ENGLISH
+global.debug=false
+global.undead=false
+global.gj_error=false
+
 Anim_Init();
 
 Console_Init();
@@ -38,6 +43,7 @@ instance_create_depth(0,0,0,camera);
 instance_create_depth(0,0,0,fader);
 instance_create_depth(0,0,0,border);
 instance_create_depth(0,0,0,closed_captions);
+instance_create_depth(0,0,0,obj_debug)
 
 application_surface_draw_enable(false);
 
@@ -52,6 +58,33 @@ Console_OutputLine("Game Version: "+GAME_VERSION);
 
 //show_debug_overlay(true);
 
+if(os_is_network_connected()=true){
+GameJolt_User_LogIn_FromCache()
+//np_initdiscord(Discord_Key,true,0)
+//np_update()
+}
 randomize();
+Flag_Load(FLAG_TYPE.SETTINGS)
+var default_lang=0
+if(os_get_language()="zh"){default_lang=1}
+Language_Set(Flag_Get(FLAG_TYPE.SETTINGS,FLAG_SETTINGS.LANGUAGE,default_lang))
+//边框
+border_=Flag_Get(FLAG_TYPE.SETTINGS,FLAG_SETTINGS.BORDER,0)
+if(border_=0){
+Border_SetEnabled(false)}else{
+Border_SetEnabled(true)
+Border_SetSprite(spr_border_simple)}
+//全屏
+if(!(os_type=os_android||os_type=os_ios||os_type=os_winphone)){
+if(Flag_Get(FLAG_TYPE.SETTINGS,FLAG_SETTINGS.FULLSCREEN,1)=2){
+window_set_fullscreen(true)}}
+//音量
+volume=Flag_Get(FLAG_TYPE.SETTINGS,FLAG_SETTINGS.VOLUME,1)
+//窗口大小
+if(!(os_type=os_android||os_type=os_ios||os_type=os_winphone)){
+_window_size=Flag_Get(FLAG_TYPE.SETTINGS,FLAG_SETTINGS.WINDOW_SIZE,1)
+if(!Border_IsEnabled()&&window_get_fullscreen()=false){
+Window_Size_Set(_window_size)}}
 
-room_goto_next();
+if(LOCK_LANGUAGE!=-1){Language_Set(LOCK_LANGUAGE)}
+room_goto(room_startmenu)

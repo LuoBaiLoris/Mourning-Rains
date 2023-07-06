@@ -75,7 +75,11 @@ function Macro_Flag() {
 		LANGUAGE,
 		GAMEPAD_CONFIRM,
 		GAMEPAD_CANCEL,
-		GAMEPAD_MENU
+		GAMEPAD_MENU,
+		WINDOW_SIZE,
+		FULLSCREEN,
+		VOLUME,
+		BORDER
 	};
 #endregion
 

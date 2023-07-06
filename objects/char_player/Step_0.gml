@@ -1,4 +1,4 @@
-var can_move=(moveable&&_moveable_dialog&&_moveable_menu&&_moveable_save&&_moveable_warp&&_moveable_encounter);
+can_move=(moveable&&_moveable_dialog&&_moveable_menu&&_moveable_save&&_moveable_warp&&_moveable_encounter);
 if(can_move){
 	if(Input_IsHeld(INPUT.UP)){
 		move[DIR.UP]=2;
