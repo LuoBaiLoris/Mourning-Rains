@@ -1,9 +1,9 @@
 "str_language_name"	"English"
 
-"str_startmenu_begin"	"Begin"
-"str_startmenu_settings"	"Settings"
-"str_startmenu_achieve"	"Achievements"
-"str_startmenu_credits"	"Credits"
+"str_startmenu_begin"	"[scale,2]Begin"
+"str_startmenu_settings"	"[scale,2]Settings"
+"str_startmenu_achieve"	"[scale,2]Achievements"
+"str_startmenu_credits"	"[scale,2]Credits"
 
 "str_menu_settings"	"Settings"
 "str_settings_on"	"On"
