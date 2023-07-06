@@ -1,3 +1,5 @@
 if (live_call()) return live_result;
-time = 0
-step = 0
+image_speed = 0
+draw_self()
+
+

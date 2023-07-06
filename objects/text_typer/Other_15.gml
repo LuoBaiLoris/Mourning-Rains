@@ -72,3 +72,4 @@ _group_voice[1,0]=snd_text_voice_typer;
 _group_voice[2,0]=snd_txtsans;
 
 _group_face[0]=face;
+_group_face[1]=face_sans;

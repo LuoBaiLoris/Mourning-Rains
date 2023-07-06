@@ -1,5 +1,7 @@
 var can_move=(moveable&&_moveable_dialog&&_moveable_menu&&_moveable_save&&_moveable_warp&&_moveable_encounter);
 if(can_move){
+	/*
+	{
 	if(Input_IsHeld(INPUT.UP)){
 		move[DIR.UP]=2;
 	}else if(Input_IsHeld(INPUT.DOWN)){
@@ -30,11 +32,16 @@ if(can_move){
 			}
 		}
 	}
+	
+	
+	}
+	
 	if(!instance_exists(ui_dialog)){
 		if(Input_IsPressed(INPUT.MENU)){
 			instance_create_depth(0,0,0,ui_menu);
 		}
 	}
+	*/
 }
 
 event_inherited();
