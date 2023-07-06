@@ -1,9 +1,9 @@
 "str_language_name"	"简体中文"
 
-"str_startmenu_begin"	"开始"
-"str_startmenu_settings"	"设置"
-"str_startmenu_achieve"	"成就"
-"str_startmenu_credits"	"名单"
+"str_startmenu_begin"	"[scale,2][font_simsun]开始"
+"str_startmenu_settings"	"[scale,2][font_simsun]设置"
+"str_startmenu_achieve"	"[scale,2][font_simsun]成就"
+"str_startmenu_credits"	"[scale,2][font_simsun]名单"
 
 "str_menu_settings"	"设置"
 "str_settings_on"	"开"
