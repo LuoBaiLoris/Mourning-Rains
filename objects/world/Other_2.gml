@@ -60,8 +60,8 @@ Console_OutputLine("Game Version: "+GAME_VERSION);
 
 if(os_is_network_connected()=true){
 GameJolt_User_LogIn_FromCache()
-//np_initdiscord(Discord_Key,true,0)
-//np_update()
+np_initdiscord(Discord_Key,true,0)
+np_update()
 }
 randomize();
 Flag_Load(FLAG_TYPE.SETTINGS)

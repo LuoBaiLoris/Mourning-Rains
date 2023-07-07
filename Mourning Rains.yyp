@@ -498,6 +498,7 @@
     {"id":{"name":"scribble_msdf_thickness_offset","path":"scripts/scribble_msdf_thickness_offset/scribble_msdf_thickness_offset.yy",},},
     {"id":{"name":"Battle_CallSoulEventHurt","path":"scripts/Battle_CallSoulEventHurt/Battle_CallSoulEventHurt.yy",},},
     {"id":{"name":"scribble_add_macro","path":"scripts/scribble_add_macro/scribble_add_macro.yy",},},
+    {"id":{"name":"NekoPresence","path":"extensions/NekoPresence/NekoPresence.yy",},},
     {"id":{"name":"Battle_IsBulletValid","path":"scripts/Battle_IsBulletValid/Battle_IsBulletValid.yy",},},
     {"id":{"name":"Battle_CallBulletEventSoulCollision","path":"scripts/Battle_CallBulletEventSoulCollision/Battle_CallBulletEventSoulCollision.yy",},},
     {"id":{"name":"Battle_SetPlayerTempAtk","path":"scripts/Battle_SetPlayerTempAtk/Battle_SetPlayerTempAtk.yy",},},
