@@ -5,32 +5,26 @@ if room == room_grillbys
 	{
 		instance_create_depth(212, 91, -100000, obj_sprite)
 		char_sans.image_alpha = 0	
-		Dialog_Add("{face 1}{font 4}{voice 2}* 嘿, {sleep 20}小鬼头, {sleep 20}你在吃啥?")
-		Dialog_Add("*{voice 0} 你摇了摇头, 表示没在吃什么。")
-		
-		Dialog_Add("{face 1}{font 4}{voice 2}* 不吃也好, 只要你别再&  挥舞你那把刀子到处&  砍怪物就好。")
-		Dialog_Add("*{voice 0} 不好的回忆涌上心头, 你面露难色。")
-		
-		Dialog_Add("{face 1}{font 4}{voice 2}* 瞧你那丧气的样子, &  意料之中的很让人&  觉得讽刺。")
-		Dialog_Add("{face 1}{font 4}{voice 2}* 死了的怪物就是死了, 这是& 【尘埃落地】的事实。")
-		Dialog_Add("{face 1}{font 4}{voice 2}* 回见, 享受你的& “油炸空气”吧。")
-		Dialog_Add("*{voice 0} 你叫住了Sans。")
-		
-		Dialog_Add("{face 1}{font 4}{voice 2}* 怎么, 你还想和我分享一下&  你的“美食”?")
-		Dialog_Add("{face 1}{font 4}{voice 2}* 我还有一【骷髅】子事情&  要做, 比如去岗哨上&  打个盹什么的。")
-		Dialog_Add("*{voice 0} 你说想至少为他们做点什么补偿。")
-		
-		Dialog_Add("{face 1}{font 4}{voice 2}* 哈, 那你自己做不就好了, &  你不是还有你那“决心”&  和【发光的小星星】么?")
-		Dialog_Add("*{voice 0} 你和Sans讲了讲决心的限制。")
-		
-		Dialog_Add("{face 1}{font 4}{voice 2}* 所以, 你这是找上我了是吧, &  我稍微想一下。")
-		Dialog_Add("{face 1}{font 4}{voice 2}* ...")
-		Dialog_Add("{face 1}{font 4}{voice 2}* 看在papyrus的份上, &  我答应你。")
-		Dialog_Add("*{voice 0} 你开心的点了点头。")
-		
-		Dialog_Add("{face 1}{font 4}{voice 2}* 但你记住, 你在过程中&  不能伤害任何怪物。")
-		Dialog_Add("{face 1}{font 4}{voice 2}{skippable false}* 否则我会让你再次&  {speed 20}横  尸  此  地  。")
-		Dialog_Add("{face 1}{skippable false}{font 4}{voice 2}* 走了。{sleep 30}{end}")
+		Dialog_Add(Lang_GetString("str_scene1_1"))
+		Dialog_Add(Lang_GetString("str_scene1_2"))
+		Dialog_Add(Lang_GetString("str_scene1_3"))
+		Dialog_Add(Lang_GetString("str_scene1_4"))
+		Dialog_Add(Lang_GetString("str_scene1_5"))
+		Dialog_Add(Lang_GetString("str_scene1_6"))
+		Dialog_Add(Lang_GetString("str_scene1_7"))
+		Dialog_Add(Lang_GetString("str_scene1_8"))
+		Dialog_Add(Lang_GetString("str_scene1_9"))
+		Dialog_Add(Lang_GetString("str_scene1_10"))
+		Dialog_Add(Lang_GetString("str_scene1_11"))
+		Dialog_Add(Lang_GetString("str_scene1_12"))
+		Dialog_Add(Lang_GetString("str_scene1_13"))
+		Dialog_Add(Lang_GetString("str_scene1_14"))
+		Dialog_Add(Lang_GetString("str_scene1_15"))
+		Dialog_Add(Lang_GetString("str_scene1_16"))
+		Dialog_Add(Lang_GetString("str_scene1_17"))
+		Dialog_Add(Lang_GetString("str_scene1_18"))
+		Dialog_Add(Lang_GetString("str_scene1_19"))
+		Dialog_Add(Lang_GetString("str_scene1_20"))
 		Dialog_Start();
 	}
 	if step == 1

@@ -1,6 +1,6 @@
 audio_stop_all()
 if(selected=1){
-	room_goto(room_grillbys)
+	room_goto(room_read)
 	Fader_Fade(1,0,30)
 }
 if(selected=2){

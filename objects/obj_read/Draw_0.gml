@@ -1,0 +1,12 @@
+draw_set_valign(fa_bottom)
+draw_set_halign(fa_center)
+draw_set_font(font_dialog)
+draw_set_color(c_white)
+draw_text_scribble(room_width/2,room_height-10,Lang_GetString("str_tips_press"))
+if(page=1){
+draw_set_valign(fa_top)
+draw_text_scribble(room_width/2,10,Lang_GetString("str_tips_rbp"))}
+if(page=2){
+draw_set_valign(fa_top)
+draw_text_scribble(room_width/2,10,Lang_GetString("str_tips_caution"))}
+draw_set_halign(fa_left)

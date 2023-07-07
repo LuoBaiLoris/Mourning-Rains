@@ -65,9 +65,9 @@ GameJolt_User_LogIn_FromCache()
 }
 randomize();
 Flag_Load(FLAG_TYPE.SETTINGS)
-var default_lang=0
+/*var default_lang=0
 if(os_get_language()="zh"){default_lang=1}
-Language_Set(Flag_Get(FLAG_TYPE.SETTINGS,FLAG_SETTINGS.LANGUAGE,default_lang))
+Language_Set(Flag_Get(FLAG_TYPE.SETTINGS,FLAG_SETTINGS.LANGUAGE,default_lang))*/
 //边框
 border_=Flag_Get(FLAG_TYPE.SETTINGS,FLAG_SETTINGS.BORDER,0)
 if(border_=0){
@@ -87,4 +87,4 @@ if(!Border_IsEnabled()&&window_get_fullscreen()=false){
 Window_Size_Set(_window_size)}}
 
 if(LOCK_LANGUAGE!=-1){Language_Set(LOCK_LANGUAGE)}
-room_goto(room_startmenu)
+room_goto(room_lang)

@@ -1,23 +1,31 @@
+a=instance_create_depth(random(room_width+10), 0, 0, obj_season_effect)
+a.image_xscale=1
+a.image_yscale=1
+a.image_index=1
+a.image_angle=a.direction
+a.alarm[1]=-1
+a.alarm[0]=1
+
 if(!temp){
-if(point_in_rectangle(device_mouse_x(0),device_mouse_y(0),room_width/5-string_width(Lang_GetString("str_startmenu_begin")),room_height/20*11-string_height(Lang_GetString("str_startmenu_begin")),room_width/5+string_width(Lang_GetString("str_startmenu_begin")),room_height/20*11+string_height(Lang_GetString("str_startmenu_begin")))){
+if(point_in_rectangle(device_mouse_x(0),device_mouse_y(0),x1-string_width_scribble(Lang_GetString("str_startmenu_begin"))/2,y1-string_height(Lang_GetString("str_startmenu_begin")),x1+string_width_scribble(Lang_GetString("str_startmenu_begin"))/2,y1+string_height(Lang_GetString("str_startmenu_begin")))){
 	selected=1
 	if(!audio){
 		audio=true
 		audio_play_sound(snd_menu_switch,0,0)
 	}
-}else if(point_in_rectangle(device_mouse_x(0),device_mouse_y(0),room_width/5-string_width(Lang_GetString("str_startmenu_settings")),room_height/4*3-string_height(Lang_GetString("str_startmenu_settings")),room_width/5+string_width(Lang_GetString("str_startmenu_settings")),room_height/4*3+string_height(Lang_GetString("str_startmenu_settings")))){
+}else if(point_in_rectangle(device_mouse_x(0),device_mouse_y(0),x1-string_width_scribble(Lang_GetString("str_startmenu_settings"))/2,y2-string_height(Lang_GetString("str_startmenu_settings")),x1+string_width_scribble(Lang_GetString("str_startmenu_settings"))/2,y2+string_height(Lang_GetString("str_startmenu_settings")))){
 	selected=2
 	if(!audio){
 		audio=true
 		audio_play_sound(snd_menu_switch,0,0)
 	}
-}else if(point_in_rectangle(device_mouse_x(0),device_mouse_y(0),room_width/5*4-string_width(Lang_GetString("str_startmenu_achieve")),room_height/20*11-string_height(Lang_GetString("str_startmenu_achieve")),room_width/5*4+string_width(Lang_GetString("str_startmenu_achieve")),room_height/20*11+string_height(Lang_GetString("str_startmenu_achieve")))){
+}else if(point_in_rectangle(device_mouse_x(0),device_mouse_y(0),x2-string_width_scribble(Lang_GetString("str_startmenu_achieve"))/2,y1-string_height(Lang_GetString("str_startmenu_achieve")),x2+string_width_scribble(Lang_GetString("str_startmenu_achieve"))/2,y1+string_height(Lang_GetString("str_startmenu_achieve")))){
 	selected=3
 	if(!audio){
 		audio=true
 		audio_play_sound(snd_menu_switch,0,0)
 	}
-}else if(point_in_rectangle(device_mouse_x(0),device_mouse_y(0),room_width/5*4-string_width(Lang_GetString("str_startmenu_credits")),room_height/4*3-string_height(Lang_GetString("str_startmenu_credits")),room_width/5*4+string_width(Lang_GetString("str_startmenu_credits")),room_height/4*3+string_height(Lang_GetString("str_startmenu_credits")))){
+}else if(point_in_rectangle(device_mouse_x(0),device_mouse_y(0),x2-string_width_scribble(Lang_GetString("str_startmenu_credits"))/2,y2-string_height(Lang_GetString("str_startmenu_credits")),x2+string_width_scribble(Lang_GetString("str_startmenu_credits"))/2,y2+string_height(Lang_GetString("str_startmenu_credits")))){
 	selected=4
 	if(!audio){
 		audio=true
