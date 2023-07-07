@@ -3,7 +3,7 @@ if room == room_grillbys
 {
 	if step == 0
 	{
-		instance_create_depth(212, 91, -100000, obj_sprite)
+		instance_create_depth(212, 92, -100000, obj_sprite)
 		char_sans.image_alpha = 0	
 		Dialog_Add(Lang_GetString("str_scene1_1"))
 		Dialog_Add(Lang_GetString("str_scene1_2"))
