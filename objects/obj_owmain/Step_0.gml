@@ -12,3 +12,4 @@ if room == room_grillbys
 		}
 	}
 }
+//show_debug_message(bgm_sans)
