@@ -56,6 +56,11 @@
 "str_discord_lang"	"In Language Screen"
 "str_discord_lang_details"	"No Machine Translate allowed"
 
+"str_chapter"   "[scale,2][font_menu]Chapter "
+"str_prologue" "[scale,2][font_menu]Prologue"
+"str_unlock_to_view"    "[scale,1][font_menu]Unlock this chapter to view!"
+"str_chapter_0" "[font_menu][scale,1]Talk in Grillby's"
+
 "str_scene1_1"	"{face 1}{font 4}{voice 2}* hey, {sleep 20}little freak,{sleep 20}&  what are you eating?"
 "str_scene1_2"	"*{voice 0} You shake your head to indicate&  you aren't eating anything."
 "str_scene1_3"	"{face 1}{font 4}{voice 2}* nothing is good,{sleep 20}&  just stop swing your knife&  and kill monsters."
