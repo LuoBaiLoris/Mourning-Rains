@@ -1,5 +1,6 @@
 {
   "FolderOrderSettings": [
+    {"name":"AnimSystem","order":5,"path":"folders/AnimSystem.yy",},
     {"name":"Extension","order":1,"path":"folders/Extension.yy",},
     {"name":"GMLive","order":1,"path":"folders/Extension/GMLive.yy",},
     {"name":"Internal","order":1,"path":"folders/Extension/GMLive/Internal.yy",},
@@ -28,6 +29,9 @@
     {"name":"Quick Functions","order":8,"path":"folders/Scribble/Quick Functions.yy",},
     {"name":"Superfonts","order":9,"path":"folders/Scribble/Superfonts.yy",},
     {"name":"Battle","order":1,"path":"folders/Scripts/Battle.yy",},
+    {"name":"Bezier","order":21,"path":"folders/Scripts/Bezier.yy",},
+    {"name":"Anim","order":1,"path":"folders/Scripts/Bezier/Anim.yy",},
+    {"name":"Curves","order":2,"path":"folders/Scripts/Bezier/Curves.yy",},
     {"name":"BGM","order":2,"path":"folders/Scripts/BGM.yy",},
     {"name":"Border","order":3,"path":"folders/Scripts/Border.yy",},
     {"name":"Box","order":4,"path":"folders/Scripts/Box.yy",},
@@ -52,10 +56,6 @@
     {"name":"Gamepad","order":7,"path":"folders/Sprites/Gamepad.yy",},
     {"name":"声音","order":2,"path":"folders/声音.yy",},
     {"name":"原版全音效","order":1,"path":"folders/声音/原版全音效.yy",},
-    {"name":"AnimSystem","order":5,"path":"folders/AnimSystem.yy",},
-    {"name":"Bezier","order":21,"path":"folders/Scripts/Bezier.yy",},
-    {"name":"Anim","order":1,"path":"folders/Scripts/Bezier/Anim.yy",},
-    {"name":"Curves","order":2,"path":"folders/Scripts/Bezier/Curves.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"__scribble_font_add_all_from_project","order":6,"path":"scripts/__scribble_font_add_all_from_project/__scribble_font_add_all_from_project.yy",},

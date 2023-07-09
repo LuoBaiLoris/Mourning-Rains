@@ -1,6 +1,7 @@
+if (live_call()) return live_result;
 audio_stop_all()
 if(selected=1){
-	room_goto(room_read)
+	room_goto(room_char)
 	Fader_Fade(1,0,30)
 }
 if(selected=2){
