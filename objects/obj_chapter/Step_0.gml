@@ -1,5 +1,5 @@
 if (live_call()) return live_result;
-a=instance_create_depth(random(room_width*2), 0, 0, obj_season_effect)
+a=instance_create_depth(random((640+400)*2), 0, 0, obj_season_effect)
 a.image_xscale=1
 a.image_yscale=1
 a.image_index=1
@@ -41,12 +41,12 @@ for (var i=0;i<array_length(circles);i++)
 if(!a){selected=-1}}
 if point_in_rectangle(mouse_x,mouse_y,camera.x+320+160,0,camera.x+640,640)
 {
-	camera.x = clamp(camera.x+5,0,640)
+	camera.x = clamp(camera.x+5,0,640+400)
 }
 
 if point_in_rectangle(mouse_x,mouse_y,camera.x,0,camera.x+160,640)
 {
-	camera.x = clamp(camera.x-5,0,640)
+	camera.x = clamp(camera.x-5,0,640+400)
 }
 if(selected!=-1&&mouse_check_button_pressed(mb_left)&&!pressed){
 	if(circles[selected].unlock){

@@ -1,0 +1,4 @@
+function Chapter_Get()
+{
+
+}

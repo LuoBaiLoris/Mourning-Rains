@@ -59,25 +59,8 @@ c5 =
 	_2nd_title:"",
 	unlock : false
 }
-c6 = 
-{
-	x : 120,
-	y : 240,
-	r : 60,
-	clr : c_white,
-	_2nd_title:"",
-	unlock : false
-}
-c7 = 
-{
-	x : 120,
-	y : 240,
-	r : 60,
-	clr : c_white,
-	_2nd_title:"",
-	unlock : false
-}
+
 audio = false
-circles = [c0,c1,c2,c3,c4,c5,c6,c7]
+circles = [c0,c1,c2,c3,c4,c5]
 pressed=false
 selected=-1
