@@ -1,3 +1,5 @@
+
+BezierAnim_Uninit();
 Anim_Uninit();
 Dialog_Uninit();
 Flag_Uninit();

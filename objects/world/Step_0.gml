@@ -1,6 +1,6 @@
 Anim_Step();
 BGM_Step();
-
+animStep()
 if(volume<0){
 volume=0}
 if(volume>1){

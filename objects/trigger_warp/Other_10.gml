@@ -1,8 +1,9 @@
 ///@desc Trigger
+if (live_call()) return live_result;
 event_inherited();
 if room == room_grillbys
 {
-	target_room = room_logo
+	target_room = room_startmenu
 }
 if(room_exists(target_room)){
 	fader.color=fade_in_color;

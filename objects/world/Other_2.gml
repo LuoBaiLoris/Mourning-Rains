@@ -4,6 +4,7 @@ global.undead=false
 global.gj_error=false
 
 Anim_Init();
+BezierAnim_Init();
 
 Console_Init();
 Console_SetStatusNumber(3);
