@@ -68,7 +68,7 @@
 "str_scene1_5"	"{face 1}{font 4}{voice 2}* 瞧你那丧气的样子, {sleep 20}&  意料之中的很让人觉得&  讽刺。"
 "str_scene1_6"	"{face 1}{font 4}{voice 2}* 死了的怪物就是死了, {sleep 20}{face_emotion 1}这&  是“尘埃落地”的事实。"
 "str_scene1_7"	"{face_emotion 0}{face 1}{font 4}{voice 2}* 回见, {sleep 20}{face_emotion 3}享受你的&“油炸空气”吧。"
-"str_scene1_8"	"*{voice 0}{audio_stop `bgm_sans`}{audio_play `bgm_Its_raining_somewhere_else` 0 true} 你叫住了Sans。"
+"str_scene1_8"	"*{voice 0}{alarm `text_typer` 0 2} 你叫住了Sans。"
 "str_scene1_9"	"{face 1}{font 4}{voice 2}* 怎么, {sleep 20}你还想和我分享一下&  你的“美食”?"
 "str_scene1_10"	"{face 1}{font 4}{voice 2}* 我还有一“骷髅”子事情&  要做, {sleep 20}{face_emotion 5}比如去岗哨上打个盹&  什么的。"
 "str_scene1_11"	"*{voice 0} 你说想至少为他们做点什么补偿。"

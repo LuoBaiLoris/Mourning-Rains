@@ -37,8 +37,5 @@ for (var i=0;i<array_length(circles);i++)
 		draw_text_scribble(c.x-40-60,c.y-15+20,c._2nd_title)
 	}else{
 		draw_text_scribble(c.x-40-60,c.y-15+20,Lang_GetString("str_unlock_to_view"))
-	}
-	
+	}	
 }
-
-
