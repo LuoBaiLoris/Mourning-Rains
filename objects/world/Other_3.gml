@@ -1,4 +1,3 @@
-
 BezierAnim_Uninit();
 Anim_Uninit();
 Dialog_Uninit();
@@ -8,3 +7,4 @@ Lang_Uninit();
 Input_Uninit();
 Console_Uninit();
 Demo_Uninit();
+file_delete(working_directory+"console.txt");

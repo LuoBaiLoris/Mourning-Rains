@@ -6,4 +6,10 @@ enum LANGUAGE{
 	
 	MAX
 }
+enum FLAG{
+	INIT,
+	CH1_UNLOCKED,
+	
+	NUM//计数用 不要动 加在前面
+}
 }

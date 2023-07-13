@@ -1,0 +1,1 @@
+audio_sound_gain(bgm_Its_raining_somewhere_else,1,1000)

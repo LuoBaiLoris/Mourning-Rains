@@ -18,7 +18,7 @@ c1 =
 	r : 60,
 	clr : c_white,
 	_2nd_title:"",
-	unlock : false
+	unlock : (global.flags[FLAG.CH1_UNLOCKED] ? true : false)
 }
 
 c2 = 

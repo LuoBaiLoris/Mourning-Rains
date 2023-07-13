@@ -4,7 +4,7 @@ if room == room_grillbys
 	if step == 0
 	{
 		instance_create_depth(212, 92, -100000, obj_sprite)
-		char_sans.image_alpha = 0	
+		char_sans.image_alpha = 0
 		Dialog_Add(Lang_GetString("str_scene1_1"))
 		Dialog_Add(Lang_GetString("str_scene1_2"))
 		Dialog_Add(Lang_GetString("str_scene1_3"))
@@ -30,7 +30,7 @@ if room == room_grillbys
 	if step == 1
 	{
 		instance_destroy(obj_sprite)
-		char_sans.image_alpha = 1	
+		char_sans.image_alpha = 1
 		char_sans.move[DIR.DOWN] = 65
 		char_sans.move[DIR.LEFT] = 15
 	}

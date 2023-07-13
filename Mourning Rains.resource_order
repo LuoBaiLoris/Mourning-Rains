@@ -56,6 +56,7 @@
     {"name":"Gamepad","order":7,"path":"folders/Sprites/Gamepad.yy",},
     {"name":"声音","order":2,"path":"folders/声音.yy",},
     {"name":"原版全音效","order":1,"path":"folders/声音/原版全音效.yy",},
+    {"name":"ini","order":24,"path":"folders/Scripts/ini.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"__scribble_font_add_all_from_project","order":6,"path":"scripts/__scribble_font_add_all_from_project/__scribble_font_add_all_from_project.yy",},
@@ -147,6 +148,7 @@
     {"name":"spr_gamepad_ps4_large_r3","order":23,"path":"sprites/spr_gamepad_ps4_large_r3/spr_gamepad_ps4_large_r3.yy",},
     {"name":"__scribble_gen_8_position_glyphs","order":8,"path":"scripts/__scribble_gen_8_position_glyphs/__scribble_gen_8_position_glyphs.yy",},
     {"name":"spr_border_simple","order":1,"path":"sprites/spr_border_simple/spr_border_simple.yy",},
+    {"name":"ini_Save","order":1,"path":"scripts/ini_Save/ini_Save.yy",},
     {"name":"GMLive_vm_init","order":7,"path":"scripts/GMLive_vm_init/GMLive_vm_init.yy",},
     {"name":"scribble_glyph_get","order":16,"path":"scripts/scribble_glyph_get/scribble_glyph_get.yy",},
     {"name":"spr_dialog_sans_face","order":4,"path":"sprites/spr_dialog_sans_face/spr_dialog_sans_face.yy",},
@@ -646,6 +648,7 @@
     {"name":"spr_battle_bg","order":6,"path":"sprites/spr_battle_bg/spr_battle_bg.yy",},
     {"name":"__scribble_get_macros_map","order":13,"path":"scripts/__scribble_get_macros_map/__scribble_get_macros_map.yy",},
     {"name":"scribble_external_sound_remove","order":2,"path":"scripts/scribble_external_sound_remove/scribble_external_sound_remove.yy",},
+    {"name":"trigger_chapter_end","order":4,"path":"objects/trigger_chapter_end/trigger_chapter_end.yy",},
     {"name":"Box_Add","order":13,"path":"scripts/Box_Add/Box_Add.yy",},
     {"name":"Box_Remove","order":15,"path":"scripts/Box_Remove/Box_Remove.yy",},
     {"name":"Demo_Init","order":1,"path":"scripts/Demo_Init/Demo_Init.yy",},

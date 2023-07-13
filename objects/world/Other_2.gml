@@ -2,6 +2,9 @@ global.language=LANGUAGE.ENGLISH
 global.debug=false
 global.undead=false
 global.gj_error=false
+var a=0
+repeat(FLAG.NUM){global.flags[a]=false;a+=1}
+global.flags[FLAG.INIT]=true
 
 Anim_Init();
 animInit()
@@ -89,4 +92,5 @@ if(!Border_IsEnabled()&&window_get_fullscreen()=false){
 Window_Size_Set(_window_size)}}
 
 if(LOCK_LANGUAGE!=-1){Language_Set(LOCK_LANGUAGE)}
+Player_Load(Flag_GetSaveSlot())
 room_goto(room_lang)

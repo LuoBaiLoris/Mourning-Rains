@@ -31,7 +31,7 @@ for (var i=0;i<array_length(circles);i++)
 	if(i=0){
 		draw_text_scribble(c.x-40-60,c.y-15-30,Lang_GetString("str_prologue"))
 	}else{
-		draw_text_scribble(c.x-40-60,c.y-15-30,Lang_GetString("str_chapter")+string(i))
+		draw_text_scribble(c.x-40-60,c.y-15-30,(c.unlock ? "" : "[c_gray]")+Lang_GetString("str_chapter")+string(i))
 	}
 	if(c.unlock){
 		draw_text_scribble(c.x-40-60,c.y-15+20,c._2nd_title)
