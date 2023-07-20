@@ -79,5 +79,5 @@
 "str_scene1_16"	"{face 1}{font 4}{voice 2}* as papyrus' sake,{sleep 20}&  i accepted."
 "str_scene1_17"	"*{voice 0} You noded happily."
 "str_scene1_18"	"{face 1}{font 4}{voice 2}* but remember,{sleep 20} you can't&  hurt any monster&  during the progress."
-"str_scene1_19"	"{face 1}{font 4}{voice 2}{face_emotion 4}{skippable false}* OR I WILL MAKE YOU&  DEAD WHERE YOUR STAND&  AGAIN."
-"str_scene1_20"	"{face 1}{skippable false}{font 4}{voice 2}* gotta go.{sleep 30}{end}"
+"str_scene1_19"	"{face 1}{font 4}{voice 2}{face_emotion 4}{skippable false}{audio_pause `bgm_Its_raining_somewhere_else`}* OR I WILL MAKE YOU&  DEAD WHERE YOUR STAND&  AGAIN."
+"str_scene1_20"	"{face 1}{skippable false}{font 4}{voice 2}{audio_resume `bgm_Its_raining_somewhere_else`}* gotta go.{sleep 30}{end}"

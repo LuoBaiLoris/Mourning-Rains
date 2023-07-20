@@ -79,5 +79,5 @@
 "str_scene1_16"	"{face 1}{font 4}{voice 2}* 看在papyrus的份上,{sleep 20}&  我答应你。"
 "str_scene1_17"	"*{voice 0} 你开心的点了点头。"
 "str_scene1_18"	"{face 1}{font 4}{voice 2}* 但你记住, {sleep 20}你在过程中&  不能伤害任何怪物。"
-"str_scene1_19"	"{face 1}{face_emotion 4}{font 4}{voice 2}{skippable false}* 否则我会让你再次{speed 20}&   横  尸  此  地  。"
-"str_scene1_20"	"{face 1}{face_emotion 0}{skippable false}{font 4}{voice 2}* 走了。{sleep 30}{end}"
+"str_scene1_19"	"{face 1}{face_emotion 4}{font 4}{voice 2}{skippable false}{audio_pause `bgm_Its_raining_somewhere_else`}* 否则我会让你再次{speed 20}&   横  尸  此  地  。"
+"str_scene1_20"	"{face 1}{face_emotion 0}{skippable false}{font 4}{voice 2}{audio_resume `bgm_Its_raining_somewhere_else`}* 走了。{sleep 30}{end}"
