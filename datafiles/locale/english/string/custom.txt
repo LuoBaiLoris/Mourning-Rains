@@ -59,7 +59,7 @@
 "str_chapter"   "[scale,2][font_menu]Chapter "
 "str_prologue" "[scale,2][font_menu]Prologue"
 "str_unlock_to_view"    "[c_gray][scale,1][font_menu]Unlock this chapter to view!"
-"str_chapter_0" "[font_menu][scale,1]Talk in Grillby's"
+"str_chapter_0" "[font_menu][scale,1]The conversation in Grillby's"
 
 "str_scene1_1"	"{face 1}{font 4}{voice 2}* hey, {sleep 20}little freak,{sleep 20}&  what are you eating?"
 "str_scene1_2"	"*{voice 0} You shake your head to indicate&  you aren't eating anything."
