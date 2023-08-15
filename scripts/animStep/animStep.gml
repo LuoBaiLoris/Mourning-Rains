@@ -16,7 +16,15 @@ function animStep()
 					{
 						_val = animcurve_channel_evaluate(_channel, 1/anim.during*anim.time)*(anim.value_type-anim.start);
 					}
-					if instance_exists(anim.inst)
+					if is_array(anim.inst)
+					{
+						with anim.inst[0]
+						{
+							anim.inst[1][anim.value]=anim.start+_val
+						}
+						
+					}
+					else if instance_exists(anim.inst)
 					{
 						variable_instance_set(anim.inst,anim.value,anim.start+_val)
 					}

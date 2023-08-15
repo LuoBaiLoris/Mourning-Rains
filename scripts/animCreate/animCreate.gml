@@ -1,4 +1,15 @@
-///@arg {id}实例/inst,{string}变量/value,{id}动画曲线/AnimCurve,{int}索引/index,{bool}类型/type,{number}开始值/start,{number}偏移值/offset||目标值/target,{int}持续时间/duration,{int}延迟/delay*
+/**
+ *  animCreate(inst, change_var, curve, index, type, offset/target, duration ,delay) 创建Anim任务并自动执行。（注意只需要创建一次！）
+ * @param	{Any}					inst
+ * @param	{String}				change_var
+ * @param	{Real}					curve
+ * @param	{Real}					index
+ * @param	{Real}					type
+ * @param	{Real}					offset/target
+ * @param	{Real}					duration
+ * @param	{Real}					delay
+ * @return	{Real}					AnimID
+ */
 function animCreate(){
 	var _inst=argument[0];
 	var _value=argument[1];
@@ -14,6 +25,7 @@ function animCreate(){
 	{
 		_delay = argument[8]
 	}
+
 	var _anim = 
 	{
 		inst : _inst,
@@ -26,7 +38,12 @@ function animCreate(){
 		type : _type,
 		value_type : _value_type
 	}
+	if is_array(_inst)
+	{
+		_anim.inst = [id,_inst]
+	}
 	
 	array_insert(global._anim_list_l,array_length(global._anim_list_l),_anim)
+
 }
 
