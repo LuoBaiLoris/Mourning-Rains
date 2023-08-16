@@ -141,6 +141,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Timelines","folderPath":"folders/Timelines.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"声音","folderPath":"folders/声音.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"原版全音效","folderPath":"folders/声音/原版全音效.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Chapter1","folderPath":"folders/Sprites/Chapter1.yy",},
   ],
   "IncludedFiles": [
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"gmu_console.dll","CopyToMask":-1,"filePath":"datafiles/bin",},
@@ -206,7 +207,7 @@
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.6.0.89",
+    "IDEVersion": "2023.6.0.92",
   },
   "resources": [
     {"id":{"name":"__scribble_font_add_all_from_project","path":"scripts/__scribble_font_add_all_from_project/__scribble_font_add_all_from_project.yy",},},
@@ -568,6 +569,7 @@
     {"id":{"name":"Item_SetWeapon","path":"scripts/Item_SetWeapon/Item_SetWeapon.yy",},},
     {"id":{"name":"Item_SetArmor","path":"scripts/Item_SetArmor/Item_SetArmor.yy",},},
     {"id":{"name":"Item_GetWeapon","path":"scripts/Item_GetWeapon/Item_GetWeapon.yy",},},
+    {"id":{"name":"sSnowtin0","path":"sprites/sSnowtin0/sSnowtin0.yy",},},
     {"id":{"name":"Item_GetArmor","path":"scripts/Item_GetArmor/Item_GetArmor.yy",},},
     {"id":{"name":"GMLive","path":"scripts/GMLive/GMLive.yy",},},
     {"id":{"name":"BezierAnim_Create","path":"scripts/BezierAnim_Create/BezierAnim_Create.yy",},},

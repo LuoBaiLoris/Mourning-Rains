@@ -58,6 +58,7 @@
     {"name":"Gamepad","order":7,"path":"folders/Sprites/Gamepad.yy",},
     {"name":"声音","order":2,"path":"folders/声音.yy",},
     {"name":"原版全音效","order":1,"path":"folders/声音/原版全音效.yy",},
+    {"name":"Chapter1","order":18,"path":"folders/Sprites/Chapter1.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"__scribble_font_add_all_from_project","order":6,"path":"scripts/__scribble_font_add_all_from_project/__scribble_font_add_all_from_project.yy",},
